@@ -1,3 +1,4 @@
+# DO NOT RUN OUTSIDE OF A CONTROLLED SANDBOX, IT WILL CORRUPT EVERYTHING IN THE CURRENT DIRECTORY
 import os
 from cryptography.fernet import Fernet
 # A file that will encrypt all files in a folder
