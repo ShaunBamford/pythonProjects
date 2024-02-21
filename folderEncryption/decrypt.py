@@ -15,12 +15,12 @@ print(files)
 with open("key.key", "rb") as thekey:
     secretKey = thekey.read()
 # Sets a decryption phrase
-secretPhrase  = "rupee"
+secretPhrase  = "key"
 # Asks user to enter secret phrase
 userPhrase = input("Enter the secret phrase to decrypt your files\n> ")
 # Checks if secret phrase is correct
 # if true it will decrypt all files
-if userPhrase == "rupee":
+if userPhrase == "key":
     for file in files:
         with open(file, "rb") as thefile:
             contents = thefile.read()
